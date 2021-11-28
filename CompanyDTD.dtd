@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!ELEMENT companys (company+)>
+<!ELEMENT company EMPTY>
+        <!ATTLIST company name CDATA #REQUIRED>
+        <!ATTLIST company ceo CDATA #REQUIRED>
+        <!ATTLIST company address CDATA #REQUIRED>
+        <!ATTLIST company emp-count CDATA #REQUIRED>
+        <!ATTLIST company industry CDATA #REQUIRED>
+        <!ATTLIST company foundation-day CDATA #REQUIRED>
+        <!ATTLIST company homepage CDATA #REQUIRED>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<!DOCTYPE companys SYSTEM "C:\Users\pciio\IdeaProjects\JavaStudy\CompanyDTD.dtd">
+<companys>
+    <company name="동국제약" ceo="오흥주" address="서울특별시 강남구 대치3동 997-8 동국빌딩" emp-count="1,099명"
+                industry="제조업" foundation-day="1968.10.15" homepage="https://www.dkpharm.co.kr"/>
+    <company name="현대위아" ceo="정재욱" address="경남 창원시 성산구 가음정동 391-8" emp-count="2,902명" industry="제조업"
+                foundation-day="1976.03.29" homepage="https://www.hyundai-wia.com"/>
+    <company name="코오롱그룹" ceo="안병덕" address="경기 과천시 코오롱로 11 (별양동, 코오롱) 코오롱타워" emp-count="11,289명"
+                industry="섬유·의류·패션" foundation-day="1957.04.12" homepage="https://www.kolon.com/"/>
+    <company name="지아이티" ceo="주현" address="서울 송파구 오금동 24 지아이티빌딩" emp-count="225명" industry="전기·전자·제어"
+                foundation-day="1997.05.22" homepage="https://www.gitauto.com"/>
+    <company name="케이티앤지" ceo="백복인" address="대전 대덕구 평촌동 100번지 (주)케이티앤지" emp-count="4,255명" industry="담배 제조업"
+                foundation-day="1987.04.01" homepage="https://www.ktng.com"/>
+    <company name="교원그룹" ceo="장평순" address="서울특별시 중구 을지로 51 (교원내외빌딩)" emp-count="2,284명" industry="비주거용 건물 임대업"
+                foundation-day="1990.03.08" homepage="https://www.kyowon.co.kr"/>
+    <company name="푸르밀" ceo="신동환" address="서울 영등포구 문래동6가 6-1" emp-count="400명" industry="식품가공"
+                foundation-day="1978년" homepage="https://www.purmil.co.kr"/>
+    <company name="한국과학기술원" ceo="이광형" address="대전 유성구 대학로 291 (구성동, 한국과학기술원) N7-5동 307호"
+                emp-count="3,206명" industry="대학교" foundation-day="2001.12.27" homepage="https://www.kaist.ac.kr"/>
+    <company name="로젠" ceo="최정호" address="서울 용산구 청파로 40 (한강로3가, 삼구빌딩) 5층" emp-count="149명"
+                industry="택배업" foundation-day="1999.06.01" homepage="https://www.ilogen.com"/>
+    <company name="효성에프엠에스" ceo="강인식" address="서울특별시 강남구 광평로 281 (수서동) 5층" emp-count="50명"
+                industry="시스템 소프트웨어 개발 및 공급업" foundation-day="2007.06.11" homepage="https://www.hyosungfms.co.kr"/>
+</companys>
+
+        <!-- 1126 회사 정보 - 속성 : 이름, 연락처, 대표, 주소, 사원수, 산업, 설립일, 홈페이지 -->
+        <!-- XML의 태그이름은 대소문자를 구분, 단어의 조합일 경우 -로 구분 -->
+        <!-- csv에는 계층구조로 표현하는 방법이 어렵기 때문에 잘 확인하기 -->
+        <!-- DTD를 작성할 때 데이터가 길어지기 때문에 외부DTD 작성해야한다-->
+        <!-- 괄호나 기호의 영어 표현도 아는 것이 좋다 -->
+        <!-- 파서의 종류가 3가지인데 스트림형식이 구현하기 좋음..?-->
+        <!-- <company name="" tel="" ceo="" address="" emp-count="" industry="" foundation-day="" homepage=""></company> -->
